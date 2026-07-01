@@ -1,0 +1,20 @@
+Caesar Cipher|OLSSV|hello
+ROT13 Cipher|URYYB|hello
+Vigenere Cipher|RIJVS|hello
+RSA-style Cipher|[5603][7703][17106][12404][16381]|HELLO
+Caesar Cipher|12|12
+ROT13 Cipher|12|12
+Vigenere Cipher|12|12
+XOR Cipher|9A 99|12
+RSA-style Cipher|[5569][19740]|12
+BB84 Quantum|02|12
+BB84 Quantum|12|12
+Caesar Cipher|OLSSV|hello
+ROT13 Cipher|URYYB|hello
+Caesar Cipher|OLSSV|hello
+ROT13 Cipher|URYYB|hello
+Vigenere Cipher|RIJVS|hello
+XOR Cipher|C3 CE C7 C7 C4|hello
+RSA-style Cipher|[5603][7703][17106][12404][16381]|hello
+BB84 Quantum|IDMMN|hello
+BB84 Quantum|HELLO|hello

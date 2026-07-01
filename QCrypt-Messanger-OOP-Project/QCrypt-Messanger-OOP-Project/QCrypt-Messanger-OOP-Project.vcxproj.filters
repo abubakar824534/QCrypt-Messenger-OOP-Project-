@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubstitutionCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ROT13Cipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleKeyGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaesarCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitwiseCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XORCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyalphabeticCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VigenereCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsymmetricCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeKeyGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModularArithmetic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RSACipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Basis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagonalBasis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RectilinearBasis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantumChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoisyChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EavesdroppedChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IdealChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Party.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Eve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Alice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantumCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BB84Cipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessengerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessengerGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyString.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubstitutionCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ROT13Cipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleKeyGenerator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyGenerator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaesarCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitwiseCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XORCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyalphabeticCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VigenereCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsymmetricCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimeKeyGenerator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathEngine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModularArithmetic.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RSACipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basis.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagonalBasis.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectilinearBasis.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGen.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantumChannel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoisyChannel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EavesdroppedChannel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IdealChannel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Party.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eve.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Alice.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bob.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantumCipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BB84Cipher.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.H">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessengerApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessengerGUI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="chat_hafiz.txt" />
+    <Text Include="chat_omer.txt" />
+    <Text Include="chat_tayyab.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Alice" Collapsed="true">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAmAABAIAAAAAAAAAAAAIAAAAAAABAgAAAAAKAAAAA=</HashCode>
+      <FileName>Alice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsymmetricCipher" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAA0AAAAAAAAAACEAQAAAAAAAAAACAAARAAAAAABAQ=</HashCode>
+      <FileName>AsymmetricCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Basis" Collapsed="true">
+    <Position X="9.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgEBAAAAAAAAAQAAABAAAAIAAAAAAAAAAAIBAAAA=</HashCode>
+      <FileName>Basis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BB84Cipher" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAEBAQRQIAAAAAAAEgQkACAAAAQAAAQEAAgACIA=</HashCode>
+      <FileName>BB84Cipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitwiseCipher" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAAAEAAAAAEAABAAAAAAAAAIAAAAAAFACA=</HashCode>
+      <FileName>BitwiseCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bob" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAHAAJAAAAAAAAAAAAAABAAgAIAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Bob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaesarCipher" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAABAIAAAAAAgEEAQAAAAAAAAAAAAEAAQAQAA=</HashCode>
+      <FileName>CaesarCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cipher" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgAEAAAgAAAAAIAAAEAQAAAAMAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Cipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Contact" Collapsed="true">
+    <Position X="16" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAQAAAAAAAACAAAAAAAAAEEAAAwAAAkIAAAAAA=</HashCode>
+      <FileName>Contact.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryptoManager" Collapsed="true">
+    <Position X="17" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAKAAQAAAIAAAAAAAAAAAAAAAAAACAAQQA=</HashCode>
+      <FileName>CryptoManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiagonalBasis" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAEAAAAAAAAAhAAAAAACAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>DiagonalBasis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EavesdroppedChannel" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAAAAAAAAAAIAAABgAAAAAMAAgAACIAAAAAAAQ=</HashCode>
+      <FileName>EavesdroppedChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Eve" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAhAAAAAAAIAIAAAAgAAAAAAAABCAAAAAIIAAAA=</HashCode>
+      <FileName>Eve.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdealChannel" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAIAAAAAAAABAgAAAAEAACBAAAAIAAAQAQ=</HashCode>
+      <FileName>IdealChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyGenerator" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACAAgAAAAAAAAAQCAAQAAAAAAARABCAEAAAAA=</HashCode>
+      <FileName>KeyGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathEngine" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAIAEAAAAAAAABBAAAAAEAAAAQAAAAAAACgBAAAA=</HashCode>
+      <FileName>MathEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Message" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAEAAAAAAAAABAAAKAAAAAEBAAgAABAgIIAAIAA=</HashCode>
+      <FileName>Message.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerApp" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABgQgQAABEIAAAAABAAAAAkAAAAAAAAAAAkABAgAAQ=</HashCode>
+      <FileName>MessengerApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessengerGUI" Collapsed="true">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CoAAwgQAAGGYEEYAAB4KGAgEAAACAFIQAJDEABFASBI=</HashCode>
+      <FileName>MessengerGUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModularArithmetic" Collapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAEAAAAAAigEAAAABACAAAAQAAIAAAAAAABAAAA=</HashCode>
+      <FileName>ModularArithmetic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyString" Collapsed="true">
+    <Position X="16" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAIAAAAAEEAECAIQIAAAEAAAAAAAAwAAAAIAA=</HashCode>
+      <FileName>MyString.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyVector&lt;T&gt;" Collapsed="true">
+    <Position X="16" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAAAAAAAAAAAAIEAIAACgAEAAAAgAQAiAAAAAAA=</HashCode>
+      <FileName>MyVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoisyChannel" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAAAgAAAABAECAAAEAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>NoisyChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Party" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAFAAAAAAAGAAAAAABAIAAAAAAEAAAAEAIAABAA=</HashCode>
+      <FileName>Party.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PolyalphabeticCipher" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAAIAAAABQAEAAABABAAABAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>PolyalphabeticCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrimeKeyGenerator" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAQAQAAAACEAAIAACAAAAAAEIOVHAAAAAAAAE=</HashCode>
+      <FileName>PrimeKeyGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuantumChannel" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAwAABAAAAAAAABAEAABAAAAAAUAAAAAAIAAAAAAAQ=</HashCode>
+      <FileName>QuantumChannel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuantumCipher" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAAAAAAAAACAAAAAEAAAIQABAAQAAAAAQCAA=</HashCode>
+      <FileName>QuantumCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandomGen" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAQAABAAgAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>RandomGen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectilinearBasis" Collapsed="true">
+    <Position X="10.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAgAAAAAAhAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>RectilinearBasis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ROT13Cipher" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUAAAAABAAAAAACEAQAQAAAEAAAAAIEAAAAAIA=</HashCode>
+      <FileName>ROT13Cipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSACipher" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAAAAAAAAAAAAUBSAABAAAAAGEAAEAAQAAAg=</HashCode>
+      <FileName>RSACipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleKeyGenerator" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAEEAABAAEABABAAAIAAAARAAAAAAAAAA=</HashCode>
+      <FileName>SimpleKeyGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubstitutionCipher" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAQACAgAAAEAAAAIAAAAAAAABAAAAAAAAAAAAIo=</HashCode>
+      <FileName>SubstitutionCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VigenereCipher" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgEAAAQAEAAAAgAAEAQAAAAAAAAEAQAEAAQAAAA=</HashCode>
+      <FileName>VigenereCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XORCipher" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAAAAIAAAAAAEIQABAAAAAAAAAAEAAQQAAA=</HashCode>
+      <FileName>XORCipher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="8.77" />
+</ClassDiagram>

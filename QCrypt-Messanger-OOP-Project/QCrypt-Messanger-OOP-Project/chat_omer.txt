@@ -1,0 +1,13 @@
+XOR Cipher|C3 CE C7 C7 C4|hello
+RSA-style Cipher|[5603][7703][17106][12404][16381]|hello
+BB84 Quantum|NIGGACHU|Niggachu
+BB84 Quantum|NHGFACHT|niggachu
+RSA-style Cipher|[13238][18576][14218]|hub
+Vigenere Cipher|RCSR|hyuh
+BB84 Quantum|HDMLO JHA H@AL!HAI |hello kia haal hai 
+BB84 Quantum|HELO |helo 
+Vigenere Cipher|RIJVS|hello
+XOR Cipher|C3 CE C7 C7 C4|hello
+RSA-style Cipher|[5603][7703][3113][12404][16381]|heelo
+BB84 Quantum|IDMMN|hello
+BB84 Quantum|HELLO|hello

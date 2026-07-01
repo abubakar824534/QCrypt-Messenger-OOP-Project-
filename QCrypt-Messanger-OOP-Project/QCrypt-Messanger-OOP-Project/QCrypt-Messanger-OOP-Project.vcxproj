@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4d23470d-eb3e-4ee2-a05c-769d89a8ce73}</ProjectGuid>
+    <RootNamespace>QCryptMessangerOOPProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\OOP\raylib-6.0_win64_msvc16\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\OOP\raylib-6.0_win64_msvc16\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>raylib.lib;winmm.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Alice.cpp" />
+    <ClCompile Include="AsymmetricCipher.cpp" />
+    <ClCompile Include="Basis.cpp" />
+    <ClCompile Include="BB84Cipher.cpp" />
+    <ClCompile Include="BitwiseCipher.cpp" />
+    <ClCompile Include="Bob.cpp" />
+    <ClCompile Include="CaesarCipher.cpp" />
+    <ClCompile Include="Cipher.cpp" />
+    <ClCompile Include="Contact.cpp" />
+    <ClCompile Include="CryptoManager.cpp" />
+    <ClCompile Include="DiagonalBasis.cpp" />
+    <ClCompile Include="EavesdroppedChannel.cpp" />
+    <ClCompile Include="Eve.cpp" />
+    <ClCompile Include="IdealChannel.cpp" />
+    <ClCompile Include="KeyGenerator.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathEngine.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MessengerApp.cpp" />
+    <ClCompile Include="MessengerGUI.cpp" />
+    <ClCompile Include="ModularArithmetic.cpp" />
+    <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="NoisyChannel.cpp" />
+    <ClCompile Include="Party.cpp" />
+    <ClCompile Include="PolyalphabeticCipher.cpp" />
+    <ClCompile Include="PrimeKeyGenerator.cpp" />
+    <ClCompile Include="QuantumChannel.cpp" />
+    <ClCompile Include="QuantumCipher.cpp" />
+    <ClCompile Include="RandomGen.cpp" />
+    <ClCompile Include="RectilinearBasis.cpp" />
+    <ClCompile Include="ROT13Cipher.cpp" />
+    <ClCompile Include="RSACipher.cpp" />
+    <ClCompile Include="SimpleKeyGenerator.cpp" />
+    <ClCompile Include="SubstitutionCipher.cpp" />
+    <ClCompile Include="VigenereCipher.cpp" />
+    <ClCompile Include="XORCipher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alice.h" />
+    <ClInclude Include="AsymmetricCipher.h" />
+    <ClInclude Include="Basis.h" />
+    <ClInclude Include="BB84Cipher.h" />
+    <ClInclude Include="BitwiseCipher.h" />
+    <ClInclude Include="Bob.h" />
+    <ClInclude Include="CaesarCipher.h" />
+    <ClInclude Include="Cipher.h" />
+    <ClInclude Include="Contact.h" />
+    <ClInclude Include="CryptoManager.h" />
+    <ClInclude Include="DiagonalBasis.h" />
+    <ClInclude Include="EavesdroppedChannel.h" />
+    <ClInclude Include="Eve.h" />
+    <ClInclude Include="IdealChannel.h" />
+    <ClInclude Include="KeyGenerator.h" />
+    <ClInclude Include="MathEngine.h" />
+    <ClInclude Include="Message.H" />
+    <ClInclude Include="MessengerApp.h" />
+    <ClInclude Include="MessengerGUI.h" />
+    <ClInclude Include="ModularArithmetic.h" />
+    <ClInclude Include="MyString.h" />
+    <ClInclude Include="MyVector.h" />
+    <ClInclude Include="NoisyChannel.h" />
+    <ClInclude Include="Party.h" />
+    <ClInclude Include="PolyalphabeticCipher.h" />
+    <ClInclude Include="PrimeKeyGenerator.h" />
+    <ClInclude Include="QuantumChannel.h" />
+    <ClInclude Include="QuantumCipher.h" />
+    <ClInclude Include="RandomGen.h" />
+    <ClInclude Include="RectilinearBasis.h" />
+    <ClInclude Include="ROT13Cipher.h" />
+    <ClInclude Include="RSACipher.h" />
+    <ClInclude Include="SimpleKeyGenerator.h" />
+    <ClInclude Include="SubstitutionCipher.h" />
+    <ClInclude Include="VigenereCipher.h" />
+    <ClInclude Include="XORCipher.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="chat_hafiz.txt" />
+    <Text Include="chat_omer.txt" />
+    <Text Include="chat_tayyab.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
