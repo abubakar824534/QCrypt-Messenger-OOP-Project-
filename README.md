@@ -32,4 +32,4 @@ To compile and run this project, you will need:
 * A `Makefile` is used to build the project from `main.cpp`.
 
 ---
-*Developed by M. AbuBakar (BSCS25109)*
+*Developed by M. AbuBakar *
