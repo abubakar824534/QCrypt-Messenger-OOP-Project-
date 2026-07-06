@@ -597,26 +597,6 @@ QCrypt-Messenger-OOP-Project/
 
 ---
 
-## 🤝 Team
-
-| Name | Role |
-|:---|:---|
-| **Hafiz Abdullah** | Developer |
-| **Omer Abdullah** | Developer |
-| **Tayyab Ahmed** | Developer |
-
-> **Roll Number:** BSCS25109
-
----
-
-## 📚 References
-
-- Bennett, C. H., & Brassard, G. (1984). *"Quantum cryptography: Public key distribution and coin tossing."* Proceedings of IEEE International Conference on Computers, Systems and Signal Processing.
-- Rivest, R., Shamir, A., & Adleman, L. (1978). *"A method for obtaining digital signatures and public-key cryptosystems."* Communications of the ACM.
-- [Raylib — A simple and easy-to-use library for game programming](https://www.raylib.com/)
-
----
-
 <p align="center">
-  <sub>Built with ❤️ and <b>zero STL containers</b> — Pure C++ from the ground up.</sub>
+  <sub>Built with ❤️ by <b>Muhammad Abubakar</b> | <b>Zero STL containers</b> — Pure C++ from the ground up.</sub>
 </p>
