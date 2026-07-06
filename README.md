@@ -507,15 +507,7 @@ QCrypt-Messenger-OOP-Project/
 
 ---
 
-## 🤝 Team
 
-| Name | Role |
-|:---|:---|
-| **Hafiz Abdullah** | Developer |
-| **Omer Abdullah** | Developer |
-| **Tayyab Ahmed** | Developer |
-
-> **Roll Number:** BSCS25109
 
 ---
 
