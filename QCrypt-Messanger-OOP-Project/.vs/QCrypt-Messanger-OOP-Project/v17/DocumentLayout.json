@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_hafiz.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\chat_hafiz.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RSACipher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\RSACipher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Cipher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -314,7 +314,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -330,31 +330,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RectilinearBasis.h",
-              "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
-              "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
-              "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
-              "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T15:39:41.485Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 45,
               "Title": "RectilinearBasis.cpp",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RectilinearBasis.cpp",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\RectilinearBasis.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RectilinearBasis.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\RectilinearBasis.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T15:39:34.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VigenereCipher.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\VigenereCipher.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\VigenereCipher.h",
@@ -362,11 +349,12 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\VigenereCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T12:49:32.376Z"
+              "WhenOpened": "2026-06-17T12:49:32.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Alice.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Alice.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Alice.h",
@@ -374,11 +362,12 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Alice.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:16:16.839Z"
+              "WhenOpened": "2026-06-17T16:16:16.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Alice.cpp",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Alice.cpp",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Alice.cpp",
@@ -389,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AsymmetricCipher.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\AsymmetricCipher.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\AsymmetricCipher.h",
@@ -397,11 +386,12 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\AsymmetricCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T13:54:13.294Z"
+              "WhenOpened": "2026-06-17T13:54:13.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "chat_hafiz.txt",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_hafiz.txt",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\chat_hafiz.txt",
@@ -414,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "chat_omer.txt",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_omer.txt",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\chat_omer.txt",
@@ -422,11 +412,12 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\chat_omer.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-18T16:24:45.865Z"
+              "WhenOpened": "2026-06-18T16:24:45.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "chat_tayyab.txt",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_tayyab.txt",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\chat_tayyab.txt",
@@ -439,13 +430,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
+              "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
+              "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2026-06-22T07:04:59.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RectilinearBasis.h",
+              "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
+              "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
+              "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
+              "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\RectilinearBasis.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-17T15:39:41.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 44,
               "Title": "ROT13Cipher.cpp",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ROT13Cipher.cpp",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\ROT13Cipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ROT13Cipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\ROT13Cipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T09:49:49.093Z"
             },
@@ -457,13 +472,12 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\DiagonalBasis.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\DiagonalBasis.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\DiagonalBasis.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T15:38:21.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DiagonalBasis.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\DiagonalBasis.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\DiagonalBasis.h",
@@ -471,7 +485,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\DiagonalBasis.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T15:38:29.62Z"
+              "WhenOpened": "2026-06-17T15:38:29.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -481,7 +496,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\BB84Cipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\BB84Cipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\BB84Cipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-18T07:34:10.169Z"
             },
@@ -493,13 +507,12 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\MyString.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\MyString.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MyString.cpp",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAKsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T09:29:01.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BB84Cipher.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\BB84Cipher.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\BB84Cipher.h",
@@ -507,11 +520,12 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\BB84Cipher.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-18T07:34:17.303Z"
+              "WhenOpened": "2026-06-18T07:34:17.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MyString.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\MyString.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\MyString.h",
@@ -519,11 +533,12 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MyString.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T09:29:08.878Z"
+              "WhenOpened": "2026-06-17T09:29:08.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MyVector.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\MyVector.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\MyVector.h",
@@ -531,7 +546,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MyVector.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T09:29:28.431Z"
+              "WhenOpened": "2026-06-17T09:29:28.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -541,13 +557,12 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\RSACipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RSACipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\RSACipher.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T14:16:26.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "RSACipher.h",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RSACipher.h",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\RSACipher.h",
@@ -555,18 +570,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\RSACipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T14:16:31.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClassDiagram.cd",
-              "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
-              "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
-              "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
-              "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\ClassDiagram.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2026-06-22T07:04:59.299Z"
+              "WhenOpened": "2026-06-17T14:16:31.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -576,7 +581,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\BitwiseCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\BitwiseCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\BitwiseCipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T12:45:55.429Z"
             },
@@ -590,7 +594,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Cipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T09:43:02.108Z"
+              "WhenOpened": "2026-06-17T09:43:02.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -600,7 +605,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Cipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Cipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Cipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T09:42:55.481Z"
             },
@@ -614,7 +618,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Message.H",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-18T07:48:50.096Z"
+              "WhenOpened": "2026-06-18T07:48:50.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -626,7 +631,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\XORCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T12:47:17.102Z"
+              "WhenOpened": "2026-06-17T12:47:17.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -638,7 +644,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\QuantumCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-18T07:33:13.32Z"
+              "WhenOpened": "2026-06-18T07:33:13.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -650,7 +657,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Bob.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:16:48.864Z"
+              "WhenOpened": "2026-06-17T16:16:48.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -662,7 +670,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Eve.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:15:28.884Z"
+              "WhenOpened": "2026-06-17T16:15:28.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -674,7 +683,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\KeyGenerator.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T12:08:43.853Z"
+              "WhenOpened": "2026-06-17T12:08:43.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -684,7 +694,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\MessengerGUI.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\MessengerGUI.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MessengerGUI.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-18T16:07:04.359Z"
             },
@@ -698,7 +707,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\main.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-18T12:05:32.689Z"
+              "WhenOpened": "2026-06-18T12:05:32.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -710,7 +720,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MessengerGUI.h",
               "ViewState": "AgIAABkAAAAAAAAAAAAAAEUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-18T16:07:10.727Z"
+              "WhenOpened": "2026-06-18T16:07:10.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -722,7 +733,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Party.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:14:45.733Z"
+              "WhenOpened": "2026-06-17T16:14:45.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -732,7 +744,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\VigenereCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\VigenereCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\VigenereCipher.cpp",
-              "ViewState": "AgIAADsAAAAAAAAAAAAmwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T12:49:27.225Z"
             },
@@ -744,7 +755,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Eve.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Eve.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Eve.cpp",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T16:15:24.047Z"
             },
@@ -756,7 +766,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\QuantumChannel.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\QuantumChannel.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\QuantumChannel.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T16:09:52.735Z"
             },
@@ -770,7 +779,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MessengerApp.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswBcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-18T12:05:00.483Z"
+              "WhenOpened": "2026-06-18T12:05:00.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -780,7 +790,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\MessengerApp.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\MessengerApp.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MessengerApp.cpp",
-              "ViewState": "AgIAAC8BAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-18T12:04:53.831Z"
             },
@@ -792,7 +801,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\QuantumCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\QuantumCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\QuantumCipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-18T07:33:03.022Z"
             },
@@ -806,7 +814,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\QuantumChannel.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:09:58.632Z"
+              "WhenOpened": "2026-06-17T16:09:58.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -816,7 +825,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\CryptoManager.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\CryptoManager.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\CryptoManager.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-18T07:42:15.876Z"
             },
@@ -830,7 +838,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\CryptoManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-18T07:42:26.468Z"
+              "WhenOpened": "2026-06-18T07:42:26.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -840,7 +849,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\RandomGen.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\RandomGen.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\RandomGen.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T15:41:56.307Z"
             },
@@ -854,7 +862,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\RandomGen.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T15:42:00.986Z"
+              "WhenOpened": "2026-06-17T15:42:00.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -864,7 +873,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Party.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Party.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Party.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T16:14:41.209Z"
             },
@@ -876,7 +884,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\ModularArithmetic.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\ModularArithmetic.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\ModularArithmetic.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T14:15:18.37Z"
             },
@@ -890,7 +897,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\ModularArithmetic.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T14:15:24.107Z"
+              "WhenOpened": "2026-06-17T14:15:24.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -900,7 +908,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\MathEngine.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\MathEngine.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MathEngine.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T14:13:27.017Z"
             },
@@ -914,7 +921,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\MathEngine.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T14:13:34.074Z"
+              "WhenOpened": "2026-06-17T14:13:34.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -924,7 +932,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\PrimeKeyGenerator.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\PrimeKeyGenerator.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\PrimeKeyGenerator.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T14:10:58.007Z"
             },
@@ -936,7 +943,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\CaesarCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\CaesarCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\CaesarCipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T12:10:57.721Z"
             },
@@ -948,7 +954,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Message.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Message.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Message.cpp",
-              "ViewState": "AgIAACUAAAAAAAAAAAAUwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-18T07:48:42.87Z"
             },
@@ -962,7 +967,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Contact.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-18T07:47:52.316Z"
+              "WhenOpened": "2026-06-18T07:47:52.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -972,7 +978,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Contact.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Contact.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Contact.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-18T07:47:45.88Z"
             },
@@ -984,7 +989,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Bob.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Bob.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Bob.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T16:16:43.846Z"
             },
@@ -998,7 +1002,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\IdealChannel.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:13:02.512Z"
+              "WhenOpened": "2026-06-17T16:13:02.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1008,7 +1013,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\IdealChannel.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\IdealChannel.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\IdealChannel.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T16:12:53.479Z"
             },
@@ -1022,7 +1026,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\EavesdroppedChannel.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:12:01.676Z"
+              "WhenOpened": "2026-06-17T16:12:01.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1032,7 +1037,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\EavesdroppedChannel.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\EavesdroppedChannel.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\EavesdroppedChannel.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T16:11:57.815Z"
             },
@@ -1046,7 +1050,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\NoisyChannel.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:11:21.137Z"
+              "WhenOpened": "2026-06-17T16:11:21.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1056,7 +1061,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\NoisyChannel.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\NoisyChannel.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\NoisyChannel.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T16:11:15.269Z"
             },
@@ -1070,7 +1074,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Basis.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T15:37:36.627Z"
+              "WhenOpened": "2026-06-17T15:37:36.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1080,7 +1085,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\Basis.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Basis.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Basis.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T15:37:32.313Z"
             },
@@ -1094,7 +1098,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\PrimeKeyGenerator.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T14:11:03.628Z"
+              "WhenOpened": "2026-06-17T14:11:03.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1104,7 +1109,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\AsymmetricCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\AsymmetricCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\AsymmetricCipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T13:54:06.342Z"
             },
@@ -1118,7 +1122,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\PolyalphabeticCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T12:48:38.19Z"
+              "WhenOpened": "2026-06-17T12:48:38.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1128,7 +1133,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\PolyalphabeticCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\PolyalphabeticCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\PolyalphabeticCipher.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T12:48:32.414Z"
             },
@@ -1140,7 +1144,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\XORCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\XORCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\XORCipher.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T12:47:11.808Z"
             },
@@ -1154,7 +1157,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\BitwiseCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T12:46:00.749Z"
+              "WhenOpened": "2026-06-17T12:46:00.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1166,7 +1170,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\CaesarCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T12:10:49.641Z"
+              "WhenOpened": "2026-06-17T12:10:49.641Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1176,7 +1181,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\KeyGenerator.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\KeyGenerator.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\KeyGenerator.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T12:08:36.923Z"
             },
@@ -1190,7 +1194,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\SimpleKeyGenerator.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T12:05:06.898Z"
+              "WhenOpened": "2026-06-17T12:05:06.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1200,7 +1205,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\SimpleKeyGenerator.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\SimpleKeyGenerator.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\SimpleKeyGenerator.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T12:05:01.728Z"
             },
@@ -1214,7 +1218,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\ROT13Cipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T09:49:56.2Z"
+              "WhenOpened": "2026-06-17T09:49:56.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1226,7 +1231,8 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\SubstitutionCipher.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T09:46:59.013Z"
+              "WhenOpened": "2026-06-17T09:46:59.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1236,7 +1242,6 @@
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\SubstitutionCipher.cpp",
               "ToolTip": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\SubstitutionCipher.cpp",
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\SubstitutionCipher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-17T09:46:53.095Z"
             }

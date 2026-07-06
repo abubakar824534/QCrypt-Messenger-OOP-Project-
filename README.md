@@ -124,17 +124,17 @@ The project follows a **layered architecture** with clear separation of concerns
 
 ```
 Cipher (Abstract Base)
-├── SubstitutionCipher (Abstract)
-│   ├── CaesarCipher
-│   ├── ROT13Cipher
-│   └── PolyalphabeticCipher (Abstract)
-│       └── VigenereCipher
-├── BitwiseCipher (Abstract)
-│   └── XORCipher
+├── PolyalphabeticCipher (Abstract)
+│   └── VigenereCipher
 ├── AsymmetricCipher (Abstract)
 │   └── RSACipher
-└── QuantumCipher (Abstract)
-    └── BB84Cipher
+├── QuantumCipher (Abstract)
+│   └── BB84Cipher
+├── SubstitutionCipher (Abstract)
+│   ├── CaesarCipher
+│   └── ROT13Cipher
+└── BitwiseCipher (Abstract)
+    └── XORCipher
 
 Party (Abstract Base)
 ├── Alice          (Sender)
@@ -178,6 +178,7 @@ classDiagram
         #MyString name
         #MyString description
         #int keySize
+        #bool isReady
         +encrypt(text)* MyString
         +decrypt(text)* MyString
         +showInfo()*
@@ -188,35 +189,74 @@ classDiagram
         <<abstract>>
         #int shift
         #int alphabetSize
+        #bool preserveCase
+        #bool skipNonAlpha
         +shiftChar(c, s) char
+        +isAlpha(c) bool
+        +normalizeShift(s) int
+        +getAlphabetSize() int
+    }
+
+    class PolyalphabeticCipher {
+        <<abstract>>
+        #MyString keyword
+        #int keyIndex
+        #int keyLength
+        #bool repeatKey
+        +setKeyword(kw)
+        +getKeyChar(pos) char
+        +extendKey(len) MyString
+        +validateKeyword() bool
     }
 
     class BitwiseCipher {
         <<abstract>>
         #unsigned char byteKey
+        #int blockSize
+        #MyString operation
+        #bool padded
         +applyBitOp(byte, key) unsigned char
         +toHex(data) MyString
+        +fromHex(hex) MyString
+        +getByteKey() unsigned char
     }
 
     class AsymmetricCipher {
         <<abstract>>
-        #long long pubE, pubN
-        #long long privD, privN
+        #long long pubE
+        #long long pubN
+        #long long privD
+        #long long privN
+        #int keySize2
+        #bool isPadded
         +setPublicKey(e, n)
         +setPrivateKey(d, n)
+        +getPublicE() long long
+        +getPublicN() long long
+        +getPrivateD() long long
     }
 
     class QuantumCipher {
         <<abstract>>
         #int qubits
         #double errorRate
+        #MyVector~int~ keyBits
+        #MyString protocol
         +simulateChannel()*
         +detectEavesdropper()* bool
+        +getErrorRate() double
+        +getProtocol() MyString
     }
 
     class CaesarCipher { +encrypt() +decrypt() }
     class ROT13Cipher { +encrypt() +decrypt() }
-    class VigenereCipher { -MyString keyword }
+    class VigenereCipher {
+        -char tabula[26][26]
+        -SimpleKeyGenerator* keyGen
+        -bool autoKey
+        +encrypt()
+        +decrypt()
+    }
     class XORCipher { +encrypt() +decrypt() }
     class RSACipher { -PrimeKeyGenerator* keyGen }
     class BB84Cipher {
@@ -228,16 +268,66 @@ classDiagram
         +reconcileBases() MyVector~int~
     }
 
-    Cipher <|-- SubstitutionCipher
-    Cipher <|-- BitwiseCipher
+    %% Other Hierarchies
+    class QuantumChannel { <<abstract>> }
+    class IdealChannel
+    class NoisyChannel
+    class EavesdroppedChannel
+
+    class KeyGenerator { <<abstract>> }
+    class PrimeKeyGenerator
+    class SimpleKeyGenerator
+
+    class Party { <<abstract>> }
+    class Alice
+    class Eve
+    class Bob
+
+    class Basis { <<abstract>> }
+    class DiagonalBasis
+    class RectilinearBasis
+
+    class MathEngine { <<abstract>> }
+    class ModularArithmetic
+
+    %% Standalone Classes
+    class CryptoManager
+    class Contact
+    class MessengerGUI
+    class Message
+    class MessengerApp
+    class MyString
+    class RandomGen
+    class MyVector~T~
+
+    %% Inheritance Relationships
+    Cipher <|-- PolyalphabeticCipher
     Cipher <|-- AsymmetricCipher
     Cipher <|-- QuantumCipher
-    SubstitutionCipher <|-- CaesarCipher
-    SubstitutionCipher <|-- ROT13Cipher
-    SubstitutionCipher <|-- VigenereCipher
-    BitwiseCipher <|-- XORCipher
+    Cipher <|-- SubstitutionCipher
+    Cipher <|-- BitwiseCipher
+    PolyalphabeticCipher <|-- VigenereCipher
     AsymmetricCipher <|-- RSACipher
     QuantumCipher <|-- BB84Cipher
+    SubstitutionCipher <|-- CaesarCipher
+    SubstitutionCipher <|-- ROT13Cipher
+    BitwiseCipher <|-- XORCipher
+
+    QuantumChannel <|-- IdealChannel
+    QuantumChannel <|-- NoisyChannel
+    QuantumChannel <|-- EavesdroppedChannel
+
+    KeyGenerator <|-- PrimeKeyGenerator
+    KeyGenerator <|-- SimpleKeyGenerator
+
+    Party <|-- Alice
+    Party <|-- Eve
+    Party <|-- Bob
+
+    Basis <|-- DiagonalBasis
+    Basis <|-- RectilinearBasis
+
+    MathEngine <|-- ModularArithmetic
 ```
 
 ---
