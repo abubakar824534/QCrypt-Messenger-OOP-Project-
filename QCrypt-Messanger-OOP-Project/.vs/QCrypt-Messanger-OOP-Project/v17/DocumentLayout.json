@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_hafiz.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\chat_hafiz.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_tayyab.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\chat_tayyab.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_omer.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\chat_omer.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_hafiz.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|solutionrelative:QCrypt-Messanger-OOP-Project\\chat_hafiz.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D23470D-EB3E-4EE2-A05C-769D89A8CE73}|QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project.vcxproj|D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\Alice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -314,7 +314,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -374,8 +374,7 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\Alice.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-17T16:16:16.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T16:16:16.839Z"
             },
             {
               "$type": "Document",
@@ -402,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "chat_hafiz.txt",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_hafiz.txt",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\chat_hafiz.txt",
@@ -415,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "chat_omer.txt",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_omer.txt",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\chat_omer.txt",
@@ -423,12 +422,11 @@
               "RelativeToolTip": "QCrypt-Messanger-OOP-Project\\chat_omer.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-18T16:24:45.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-18T16:24:45.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "chat_tayyab.txt",
               "DocumentMoniker": "D:\\QCrypt-Messenger-OOP-Project-\\QCrypt-Messanger-OOP-Project\\QCrypt-Messanger-OOP-Project\\chat_tayyab.txt",
               "RelativeDocumentMoniker": "QCrypt-Messanger-OOP-Project\\chat_tayyab.txt",
