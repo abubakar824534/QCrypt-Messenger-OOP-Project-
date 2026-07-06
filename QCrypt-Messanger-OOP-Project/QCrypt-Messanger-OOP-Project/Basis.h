@@ -12,16 +12,36 @@ protected:
     char symbol;
 
 public:
-    Basis();
-    virtual ~Basis();
+    Basis() : basisType("Unknown"), angle0(0), angle1(90), symbol('?')
+    {
+    }
+
+    virtual ~Basis()
+    {
+    }
 
     virtual int measure(int photon) const = 0;
     virtual int prepare(int bit) const = 0;
 
-    MyString getBasisType() const;
-    char getSymbol() const;
-    int getAngle0() const;
-    int getAngle1() const;
+    MyString getBasisType() const
+    {
+        return basisType;
+    }
+
+    char getSymbol() const
+    {
+        return symbol;
+    }
+
+    int getAngle0() const
+    {
+        return angle0;
+    }
+
+    int getAngle1() const
+    {
+        return angle1;
+    }
 };
 
 #endif

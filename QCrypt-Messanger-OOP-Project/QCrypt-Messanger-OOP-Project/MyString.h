@@ -9,33 +9,207 @@ private:
     char* data;
     int len;
 
-    void copyFrom(const char* src);
+    void copyFrom(const char* src)
+    {
+        if (!src)
+        {
+            len = 0;
+            data = new char[1];
+            data[0] = '\0';
+            return;
+        }
+        len = 0;
+        while (src[len] != '\0') ++len;
+        data = new char[len + 1];
+        for (int i = 0; i <= len; ++i)
+        {
+            data[i] = src[i];
+        }
+    }
 
 public:
-    MyString();
-    MyString(const char* str);
-    MyString(const MyString& other);
-    ~MyString();
+    MyString()
+    {
+        len = 0;
+        data = new char[1];
+        data[0] = '\0';
+    }
 
-    MyString& operator=(const MyString& other);
-    MyString& operator=(const char* str);
-    MyString operator+(const MyString& other) const;
-    MyString operator+(const char* other) const;
-    MyString operator+(char c) const;
-    char& operator[](int index);
-    char operator[](int index) const;
-    bool operator==(const MyString& other) const;
-    bool operator!=(const MyString& other) const;
+    MyString(const char* str)
+    {
+        copyFrom(str);
+    }
 
-    int length() const;
-    const char* c_str() const;
+    MyString(const MyString& other)
+    {
+        copyFrom(other.data);
+    }
 
-    static MyString fromInt(int val);
+    ~MyString()
+    {
+        delete[] data;
+    }
 
-    MyString toUpper() const;
-    MyString toLower() const;
+    MyString& operator=(const MyString& other)
+    {
+        if (this != &other)
+        {
+            delete[] data;
+            copyFrom(other.data);
+        }
+        return *this;
+    }
 
-    friend std::ostream& operator<<(std::ostream& os, const MyString& s);
+    MyString& operator=(const char* str)
+    {
+        delete[] data;
+        copyFrom(str);
+        return *this;
+    }
+
+    MyString operator+(const MyString& other) const
+    {
+        int newLen = len + other.len;
+        char* buf = new char[newLen + 1];
+        for (int i = 0; i < len; ++i)
+        {
+            buf[i] = data[i];
+        }
+        for (int i = 0; i < other.len; ++i)
+        {
+            buf[len + i] = other.data[i];
+        }
+        buf[newLen] = '\0';
+        MyString result(buf);
+        delete[] buf;
+        return result;
+    }
+
+    MyString operator+(const char* other) const
+    {
+        MyString tmp(other);
+        return (*this) + tmp;
+    }
+
+    MyString operator+(char c) const
+    {
+        int newLen = len + 1;
+        char* buf = new char[newLen + 1];
+        for (int i = 0; i < len; ++i)
+        {
+            buf[i] = data[i];
+        }
+        buf[len] = c;
+        buf[newLen] = '\0';
+        MyString result(buf);
+        delete[] buf;
+        return result;
+    }
+
+    char& operator[](int index)
+    {
+        return data[index];
+    }
+
+    char operator[](int index) const
+    {
+        return data[index];
+    }
+
+    bool operator==(const MyString& other) const
+    {
+        if (len != other.len)
+        {
+            return false;
+        }
+        for (int i = 0; i < len; ++i)
+        {
+            if (data[i] != other.data[i])
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    bool operator!=(const MyString& other) const
+    {
+        return !(*this == other);
+    }
+
+    int length() const
+    {
+        return len;
+    }
+
+    const char* c_str() const
+    {
+        return data;
+    }
+
+    static MyString fromInt(int val)
+    {
+        if (val == 0)
+        {
+            return MyString("0");
+        }
+        bool neg = val < 0;
+        if (neg)
+        {
+            val = -val;
+        }
+        char buf[32];
+        int pos = 0;
+        while (val > 0)
+        {
+            buf[pos++] = '0' + (val % 10);
+            val /= 10;
+        }
+        if (neg)
+        {
+            buf[pos++] = '-';
+        }
+        for (int i = 0; i < pos / 2; ++i)
+        {
+            char t = buf[i];
+            buf[i] = buf[pos - 1 - i];
+            buf[pos - 1 - i] = t;
+        }
+        buf[pos] = '\0';
+        return MyString(buf);
+    }
+
+    MyString toUpper() const
+    {
+        MyString result(*this);
+        for (int i = 0; i < result.len; ++i)
+        {
+            if (result.data[i] >= 'a' && result.data[i] <= 'z')
+            {
+                result.data[i] = result.data[i] - 'a' + 'A';
+            }
+        }
+        return result;
+    }
+
+    MyString toLower() const
+    {
+        MyString result(*this);
+        for (int i = 0; i < result.len; ++i)
+        {
+            if (result.data[i] >= 'A' && result.data[i] <= 'Z')
+            {
+                result.data[i] = result.data[i] - 'A' + 'a';
+            }
+        }
+        return result;
+    }
+
+    friend std::ostream& operator<<(std::ostream& os, const MyString& s)
+    {
+        os << s.data;
+        return os;
+    }
 };
 
 #endif

@@ -13,14 +13,45 @@ private:
     int interceptCount;
 
 public:
-    EavesdroppedChannel(long long eveSeed = 999, double errRate = 0.25);
-    virtual ~EavesdroppedChannel();
+    EavesdroppedChannel(long long eveSeed = 999, double errRate = 0.25) : errorRate(errRate), detectionRisk(errRate), interceptCount(0)
+    {
+        channelType = MyString("Eavesdropped");
+        noiseLevel = errRate;
+        isSecure = false;
+        eve = new Eve(eveSeed);
+    }
 
-    int transmit(int photon) override;
-    MyString getChannelType() const;
-    double getNoiseLevel() const;
-    int getInterceptCount() const;
-    bool isChannelSecure() const;
+    virtual ~EavesdroppedChannel()
+    {
+        delete eve;
+    }
+
+    int transmit(int photon) override
+    {
+        ++photonCount;
+        ++interceptCount;
+        return eve->intercept(photon);
+    }
+
+    MyString getChannelType() const
+    {
+        return MyString("Eavesdropped");
+    }
+
+    double getNoiseLevel() const
+    {
+        return errorRate;
+    }
+
+    int getInterceptCount() const
+    {
+        return interceptCount;
+    }
+
+    bool isChannelSecure() const
+    {
+        return false;
+    }
 };
 
 #endif

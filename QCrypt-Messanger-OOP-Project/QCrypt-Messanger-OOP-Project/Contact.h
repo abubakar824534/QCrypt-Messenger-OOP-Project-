@@ -2,6 +2,7 @@
 #define CONTACT_H
 
 #include "MyString.h"
+#include <iostream>
 
 class Contact
 {
@@ -11,17 +12,52 @@ private:
     MyString chatFile;
 
 public:
-    Contact();
-    Contact(const char* n, const char* p, const char* file);
-    Contact(const Contact& other);
-    ~Contact();
+    Contact() : name("Unknown"), phone("000"), chatFile("chat.txt")
+    {
+    }
 
-    Contact& operator=(const Contact& other);
+    Contact(const char* n, const char* p, const char* file) : name(n), phone(p), chatFile(file)
+    {
+    }
 
-    MyString getName() const;
-    MyString getPhone() const;
-    MyString getChatFile() const;
-    void display(int index) const;
+    Contact(const Contact& other) : name(other.name), phone(other.phone), chatFile(other.chatFile)
+    {
+    }
+
+    ~Contact()
+    {
+    }
+
+    Contact& operator=(const Contact& other)
+    {
+        if (this != &other)
+        {
+            name = other.name;
+            phone = other.phone;
+            chatFile = other.chatFile;
+        }
+        return *this;
+    }
+
+    MyString getName() const
+    {
+        return name;
+    }
+
+    MyString getPhone() const
+    {
+        return phone;
+    }
+
+    MyString getChatFile() const
+    {
+        return chatFile;
+    }
+
+    void display(int index) const
+    {
+        std::cout << "    [" << index << "] " << name << "\t" << phone << std::endl;
+    }
 };
 
 #endif

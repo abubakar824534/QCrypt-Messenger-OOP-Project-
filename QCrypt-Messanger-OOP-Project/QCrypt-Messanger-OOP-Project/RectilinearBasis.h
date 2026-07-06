@@ -9,13 +9,37 @@ private:
     double measureNoise;
 
 public:
-    RectilinearBasis();
-    virtual ~RectilinearBasis();
+    RectilinearBasis() : measureNoise(0.0)
+    {
+        basisType = MyString("Rectilinear");
+        angle0 = 0;
+        angle1 = 90;
+        symbol = '+';
+    }
 
-    int measure(int photon) const override;
-    int prepare(int bit) const override;
-    MyString getBasisType() const;
-    char getSymbol() const;
+    virtual ~RectilinearBasis()
+    {
+    }
+
+    int measure(int photon) const override
+    {
+        return photon & 1;
+    }
+
+    int prepare(int bit) const override
+    {
+        return bit & 1;
+    }
+
+    MyString getBasisType() const
+    {
+        return basisType;
+    }
+
+    char getSymbol() const
+    {
+        return symbol;
+    }
 };
 
 #endif

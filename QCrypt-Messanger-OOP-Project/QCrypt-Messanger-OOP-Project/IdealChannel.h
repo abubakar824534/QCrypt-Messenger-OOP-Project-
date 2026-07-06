@@ -13,13 +13,37 @@ private:
     bool isIdeal;
 
 public:
-    IdealChannel();
-    virtual ~IdealChannel();
+    IdealChannel() : lossRate(0.0), delay(0), photonsLost(0), isIdeal(true)
+    {
+        channelType = MyString("Ideal");
+        noiseLevel = 0.0;
+        isSecure = true;
+    }
 
-    int transmit(int photon) override;
-    MyString getChannelType() const;
-    double getNoiseLevel() const;
-    bool isChannelSecure() const;
+    virtual ~IdealChannel()
+    {
+    }
+
+    int transmit(int photon) override
+    {
+        ++photonCount;
+        return photon;
+    }
+
+    MyString getChannelType() const
+    {
+        return MyString("Ideal");
+    }
+
+    double getNoiseLevel() const
+    {
+        return 0.0;
+    }
+
+    bool isChannelSecure() const
+    {
+        return true;
+    }
 };
 
 #endif

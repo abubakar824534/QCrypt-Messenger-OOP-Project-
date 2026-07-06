@@ -14,14 +14,40 @@ protected:
     bool isPadded;
 
 public:
-    AsymmetricCipher();
-    virtual ~AsymmetricCipher();
+    AsymmetricCipher() : pubE(17), pubN(3233), privD(2753), privN(3233), keySize2(12), isPadded(false)
+    {
+    }
 
-    void setPublicKey(long long e, long long n);
-    void setPrivateKey(long long d, long long n);
-    long long getPublicE() const;
-    long long getPublicN() const;
-    long long getPrivateD() const;
+    virtual ~AsymmetricCipher()
+    {
+    }
+
+    void setPublicKey(long long e, long long n)
+    {
+        pubE = e;
+        pubN = n;
+    }
+
+    void setPrivateKey(long long d, long long n)
+    {
+        privD = d;
+        privN = n;
+    }
+
+    long long getPublicE() const
+    {
+        return pubE;
+    }
+
+    long long getPublicN() const
+    {
+        return pubN;
+    }
+
+    long long getPrivateD() const
+    {
+        return privD;
+    }
 };
 
 #endif

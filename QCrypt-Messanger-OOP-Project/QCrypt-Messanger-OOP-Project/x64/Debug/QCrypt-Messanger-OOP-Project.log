@@ -1,6 +1,15 @@
-﻿  CryptoManager.cpp
-  MessengerApp.cpp
-  MessengerGUI.cpp
-  main.cpp
-  Generating Code...
-  QCrypt-Messanger-OOP-Project.vcxproj -> C:\Users\ut\oop-semproj-cs25a-bscs25109-ui\QCrypt-Messanger-OOP-Project\x64\Debug\QCrypt-Messanger-OOP-Project.exe
+﻿  main.cpp
+D:\QCrypt-Messenger-OOP-Project-\QCrypt-Messanger-OOP-Project\QCrypt-Messanger-OOP-Project\RSACipher.h(80,22): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\QCrypt-Messenger-OOP-Project-\QCrypt-Messanger-OOP-Project\QCrypt-Messanger-OOP-Project\RSACipher.h(155,34): warning C4244: 'argument': conversion from 'const __int64' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\QCrypt-Messenger-OOP-Project-\QCrypt-Messanger-OOP-Project\QCrypt-Messanger-OOP-Project\RSACipher.h(155,63): warning C4244: 'argument': conversion from 'const __int64' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\QCrypt-Messenger-OOP-Project-\QCrypt-Messanger-OOP-Project\QCrypt-Messanger-OOP-Project\RSACipher.h(155,92): warning C4244: 'argument': conversion from 'const __int64' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  QCrypt-Messanger-OOP-Project.vcxproj -> D:\QCrypt-Messenger-OOP-Project-\QCrypt-Messanger-OOP-Project\x64\Debug\QCrypt-Messanger-OOP-Project.exe

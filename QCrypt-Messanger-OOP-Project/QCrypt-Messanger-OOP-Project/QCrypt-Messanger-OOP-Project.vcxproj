@@ -126,42 +126,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Alice.cpp" />
-    <ClCompile Include="AsymmetricCipher.cpp" />
-    <ClCompile Include="Basis.cpp" />
-    <ClCompile Include="BB84Cipher.cpp" />
-    <ClCompile Include="BitwiseCipher.cpp" />
-    <ClCompile Include="Bob.cpp" />
-    <ClCompile Include="CaesarCipher.cpp" />
-    <ClCompile Include="Cipher.cpp" />
-    <ClCompile Include="Contact.cpp" />
-    <ClCompile Include="CryptoManager.cpp" />
-    <ClCompile Include="DiagonalBasis.cpp" />
-    <ClCompile Include="EavesdroppedChannel.cpp" />
-    <ClCompile Include="Eve.cpp" />
-    <ClCompile Include="IdealChannel.cpp" />
-    <ClCompile Include="KeyGenerator.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MathEngine.cpp" />
-    <ClCompile Include="Message.cpp" />
-    <ClCompile Include="MessengerApp.cpp" />
-    <ClCompile Include="MessengerGUI.cpp" />
-    <ClCompile Include="ModularArithmetic.cpp" />
-    <ClCompile Include="MyString.cpp" />
-    <ClCompile Include="NoisyChannel.cpp" />
-    <ClCompile Include="Party.cpp" />
-    <ClCompile Include="PolyalphabeticCipher.cpp" />
-    <ClCompile Include="PrimeKeyGenerator.cpp" />
-    <ClCompile Include="QuantumChannel.cpp" />
-    <ClCompile Include="QuantumCipher.cpp" />
-    <ClCompile Include="RandomGen.cpp" />
-    <ClCompile Include="RectilinearBasis.cpp" />
-    <ClCompile Include="ROT13Cipher.cpp" />
-    <ClCompile Include="RSACipher.cpp" />
-    <ClCompile Include="SimpleKeyGenerator.cpp" />
-    <ClCompile Include="SubstitutionCipher.cpp" />
-    <ClCompile Include="VigenereCipher.cpp" />
-    <ClCompile Include="XORCipher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Alice.h" />

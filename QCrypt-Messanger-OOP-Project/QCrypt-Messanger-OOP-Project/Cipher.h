@@ -12,8 +12,13 @@ protected:
     bool isReady;
 
 public:
-    Cipher();
-    virtual ~Cipher();
+    Cipher() : name("Cipher"), description(""), keySize(0), isReady(false)
+    {
+    }
+
+    virtual ~Cipher()
+    {
+    }
 
     virtual MyString encrypt(const MyString& text) = 0;
     virtual MyString decrypt(const MyString& text) = 0;

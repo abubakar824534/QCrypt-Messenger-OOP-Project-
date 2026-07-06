@@ -13,13 +13,46 @@ private:
     int disturbCount;
 
 public:
-    NoisyChannel(double rate = 0.1, long long seed = 42);
-    virtual ~NoisyChannel();
+    NoisyChannel(double rate = 0.1, long long seed = 42) : noiseRate(rate), flipProb(rate), rng(seed), disturbCount(0)
+    {
+        channelType = MyString("Noisy");
+        noiseLevel = rate;
+        isSecure = true;
+    }
 
-    int transmit(int photon) override;
-    double getNoiseLevel() const;
-    void setNoiseRate(double r);
-    MyString getChannelType() const;
+    virtual ~NoisyChannel()
+    {
+    }
+
+    int transmit(int photon) override
+    {
+        ++photonCount;
+        int threshold = (int)(noiseRate * 100.0);
+        int roll = rng.nextInt(0, 99);
+        if (roll < threshold)
+        {
+            ++disturbCount;
+            return (photon ^ 1);
+        }
+        return photon;
+    }
+
+    double getNoiseLevel() const
+    {
+        return noiseRate;
+    }
+
+    MyString getChannelType() const
+    {
+        return MyString("Noisy");
+    }
+
+    void setNoiseRate(double r)
+    {
+        noiseRate = r;
+        flipProb = r;
+        noiseLevel = r;
+    }
 };
 
 #endif

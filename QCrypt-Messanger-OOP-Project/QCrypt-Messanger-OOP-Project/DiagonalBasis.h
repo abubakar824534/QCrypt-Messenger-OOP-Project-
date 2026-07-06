@@ -9,13 +9,37 @@ private:
     double measureNoise;
 
 public:
-    DiagonalBasis();
-    virtual ~DiagonalBasis();
+    DiagonalBasis() : measureNoise(0.0)
+    {
+        basisType = MyString("Diagonal");
+        angle0 = 45;
+        angle1 = 135;
+        symbol = 'x';
+    }
 
-    int measure(int photon) const override;
-    int prepare(int bit) const override;
-    MyString getBasisType() const;
-    char getSymbol() const;
+    virtual ~DiagonalBasis()
+    {
+    }
+
+    int measure(int photon) const override
+    {
+        return photon & 1;
+    }
+
+    int prepare(int bit) const override
+    {
+        return bit & 1;
+    }
+
+    MyString getBasisType() const
+    {
+        return basisType;
+    }
+
+    char getSymbol() const
+    {
+        return symbol;
+    }
 };
 
 #endif
